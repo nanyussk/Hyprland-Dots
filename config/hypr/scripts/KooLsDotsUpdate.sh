@@ -16,7 +16,7 @@ fi
 
 # GitHub URL - KooL's dots
 branch="main"
-github_url="https://github.com/JaKooLit/Hyprland-Dots/tree/$branch/config/hypr/"
+github_url="https://github.com/nanyussk/Hyprland-Dots/tree/$branch/config/hypr/"
 
 # Fetch the version from GitHub URL - KooL's dots
 github_version=$(curl -s $github_url | grep -o 'v[0-9]\+\.[0-9]\+\.[0-9]\+' | sort -V | tail -n 1 | sed 's/v//')
@@ -58,7 +58,7 @@ else
   			exit 1
 		fi
         kitty -e bash -c "
-          git clone --depth=1 https://github.com/JaKooLit/Hyprland-Dots.git $KooL_Dots_DIR &&
+          git clone --depth=1 https://github.com/nanyussk/Hyprland-Dots.git $KooL_Dots_DIR &&
           cd $KooL_Dots_DIR &&
           chmod +x copy.sh &&
           ./copy.sh &&
