@@ -1,129 +1,112 @@
-/* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
-
 {
 "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 "logo": {
-"padding": {
-"top": 1
-}
-},
+  //"source": "~/.config/fastfetch/nixos.png",
+  //"type": "kitty-direct",
+  "height": 15,
+  "width": 30,
+  "padding": {
+    "top": 1
+    }
+  },
 "display": {
-"separator": " 󰑃  "
+  "separator": " ➜  "
 },
+
 "modules": [
-    "break",
-    {
+  "break",
+  {
     "type": "os",
     "key": " DISTRO",
-    "keyColor": "yellow"
-    },
-    {
+    "keyColor": "31",
+  },
+  {
     "type": "kernel",
-    "key": "│ ├",
-    "keyColor": "yellow"
-    },
-    {
+    "key": " ├  ",
+    "keyColor": "31",
+  },
+  {
     "type": "packages",
-    "key": "│ ├󰏖",
-    "keyColor": "yellow"
-    },
-    {
+    "key": " ├ 󰏖 ",
+    "keyColor": "31",
+  },
+  {
     "type": "shell",
-    "key": "│ └",
-    "keyColor": "yellow"
-    },
-    {
+    "key": " └  ",
+    "keyColor": "31",
+  },
+  "break",
+  {
     "type": "wm",
     "key": " DE/WM",
-    "keyColor": "blue"
-    },
-    {
+    "keyColor": "32",
+  },
+  {
     "type": "wmtheme",
-    "key": "│ ├󰉼",
-    "keyColor": "blue"
-    },
-    {
+    "key": " ├ 󰉼 ",
+    "keyColor": "32",
+  },
+  {
     "type": "icons",
-    "key": "│ ├󰀻",
-    "keyColor": "blue"
-    },
-    {
-        "type": "cursor",
-        "key": "│ ├",
-        "keyColor": "blue",
-    },
-    {
-        "type": "terminalfont",
-        "key": "│ ├",
-        "keyColor": "blue",
-    },
-    {
+    "key": " ├ 󰀻 ",
+    "keyColor": "32",
+  },
+  {
+    "type": "cursor",
+    "key": " ├  ",
+    "keyColor": "32",
+  },
+  {
     "type": "terminal",
-    "key": "│ └",
-    "keyColor": "blue"
-    },
-    {
+    "key": " ├  ",
+    "keyColor": "32",
+  },
+  {
+    "type": "terminalfont",
+    "key": " └  ",
+    "keyColor": "32",
+  },
+  "break",
+  {
     "type": "host",
+    "format": "{2}",
     "key": "󰌢 SYSTEM",
-    "keyColor": "green"
-    },
-    {
+    "keyColor": "33",
+  },
+  {
     "type": "cpu",
-    "key": "│ ├󰻠",
-    "keyColor": "green"
-    },
-    {
+    "format": "{1} ({3}) @ {7} GHz",
+    "key": " ├  ",
+    "keyColor": "33",
+  },
+  {
     "type": "gpu",
-    "key": "│ ├󰻑",
     "format": "{2}",
-    "keyColor": "green"
-    },
-    {
-            "type": "display",
-    "key": "│ ├󰍹",
-    "keyColor": "green",
-    "compactType": "original-with-refresh-rate"
-    },
-    {
+    "key": " ├ 󰢮 ",
+    "keyColor": "33",
+  },
+  {
     "type": "memory",
-    "key": "│ ├󰾆",
-    "keyColor": "green"
-    },
-    {
+    "key": " ├  ",
+    "keyColor": "33",
+  },
+  {
     "type": "swap",
-    "key": "│ ├󰓡",
-    "keyColor": "green"
-    },
-    {
-    "type": "uptime",
-    "key": "│ ├󰅐",
-    "keyColor": "green"
-    },
-    {
+    "key": " ├ 󰓡 ",
+    "keyColor": "33",
+  },
+  {
+    "type": "disk",
+    "key": " ├ 󰋊 ",
+    "keyColor": "33",
+  },
+  {
     "type": "display",
-    "key": "│ └󰍹",
-    "keyColor": "green"
-    },
-    {
-    "type": "sound",
-    "key": " AUDIO",
-    "format": "{2}",
-    "keyColor": "magenta"
-    },
-    {
-    "type": "player",
-    "key": "│ ├󰥠",
-    "keyColor": "magenta"
-    },
-    {
-    "type": "media",
-    "key": "│ └󰝚",
-    "keyColor": "magenta"
-    },
-    {
-    "type": "custom",
-    "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[38m  \u001b[39m  \u001b[39m    \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m "
-    },
-    "break",
-    ]
+    "key": " └  ",
+    "compactType": "original-with-refresh-rate",
+    "keyColor": "33",
+  },
+  "break",
+  "break",
+]
 }

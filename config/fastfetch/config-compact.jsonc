@@ -1,13 +1,14 @@
-/* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
-
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-    "logo": {
-        "padding": {
-            "top": 2
-        },
-        "type": "small"
-    },
+ "logo": {
+  "source": "~/.config/fastfetch/Keisremkstcaer.png",
+  "type": "kitty-direct",
+  "height": 10,
+  "width": 20,
+  "padding": {
+    "top": 1
+    }
+  },
     "display": {
         "separator": " -> "
     },
@@ -42,19 +43,11 @@
             "key": " ",
             "keyColor": "blue"
         },
-        /*
         {
-            "type": "packages",
-            "key": "󰏖 ",
-            "keyColor": "yellow"
-        },
-        */
-        {
-            "type": "memory",
-            "key": "󰍛 ",
-            "keyColor": "magenta",
-            // format: used / total
-            "format": "{1} / {2}"
+            "type": "display",
+            "key": " ",
+            "compactType": "original-with-refresh-rate",
+            "keyColor": "red"
         },
         {
             "type": "uptime",
