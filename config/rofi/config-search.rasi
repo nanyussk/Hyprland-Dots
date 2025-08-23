@@ -18,7 +18,7 @@ window {
 /* ---- Entry ---- */ 
 entry {
 	expand: true;
-	placeholder: " 🔎 Google Search";
+	placeholder: " 🔎 Search in web";
 	horizontal-align: 0.5;
 	padding: 15px;
 	border-radius: inherit;
